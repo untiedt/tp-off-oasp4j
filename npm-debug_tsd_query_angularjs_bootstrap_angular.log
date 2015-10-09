@@ -1,0 +1,62 @@
+C:\TPs\devonfw\workspaces\main\tp-off-oasp4j>tsd query angularjs* bootstrap* angular-ui* node npm -a install -r -o -s
+
+ - angular-ui-bootstrap        / angular-ui-bootstrap
+   -> angularjs                > angular
+   -> jquery                   > jquery
+ - angular-ui-router           / angular-ui-router
+   -> angularjs                > angular
+   -> jquery                   > jquery
+ - angular-ui-scroll           / angular-ui-scroll
+   -> angularjs                > angular
+   -> jquery                   > jquery
+ - angular-ui-sortable         / angular-ui-sortable
+   -> angularjs                > angular
+   -> jquery                   > jquery
+ - angular-ui-tree             / angular-ui-tree
+ - angularjs-toaster           / angularjs-toaster
+   -> angularjs                > angular
+   -> jquery                   > jquery
+ - bootstrap-notify            / bootstrap-notify
+   -> jquery                   > jquery
+ - bootstrap-slider            / bootstrap-slider
+   -> jquery                   > jquery
+ - bootstrap-touchspin         / bootstrap-touchspin
+   -> jquery                   > jquery
+ - bootstrap.datepicker        / bootstrap.datepicker
+   -> jquery                   > jquery
+ - bootstrap.paginator         / bootstrap.paginator
+   -> jquery                   > jquery
+ - bootstrap.timepicker        / bootstrap.timepicker
+   -> jquery                   > jquery
+ - bootstrap.v3.datetimepicker / bootstrap.v3.datetimepicker
+   -> jquery                   > jquery
+ - bootstrap                   / bootstrap
+   -> jquery                   > jquery
+ - node                        / node
+ - npm                         / npm
+   -> node                     > node
+
+>> running install..
+
+>> written 18 files:
+
+    - angular-ui-bootstrap/angular-ui-bootstrap.d.ts
+    - angular-ui-router/angular-ui-router.d.ts
+    - angular-ui-scroll/angular-ui-scroll.d.ts
+    - angular-ui-sortable/angular-ui-sortable.d.ts
+    - angular-ui-tree/angular-ui-tree.d.ts
+    - angularjs-toaster/angularjs-toaster.d.ts
+    - angularjs/angular.d.ts
+    - bootstrap-notify/bootstrap-notify.d.ts
+    - bootstrap-slider/bootstrap-slider.d.ts
+    - bootstrap-touchspin/bootstrap-touchspin.d.ts
+    - bootstrap.datepicker/bootstrap.datepicker.d.ts
+    - bootstrap.paginator/bootstrap.paginator.d.ts
+    - bootstrap.timepicker/bootstrap.timepicker.d.ts
+    - bootstrap.v3.datetimepicker/bootstrap.v3.datetimepicker.d.ts
+    - bootstrap/bootstrap.d.ts
+    - jquery/jquery.d.ts
+    - node/node.d.ts
+    - npm/npm.d.ts
+
+C:\TPs\devonfw\workspaces\main\tp-off-oasp4j>

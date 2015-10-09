@@ -1,0 +1,103 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\TPs\\devonfw\\software\\nodejs\\\\node.exe',
+1 verbose cli   'C:\\TPs\\devonfw\\software\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   'tsd',
+1 verbose cli   '–g' ]
+2 info using npm@1.4.23
+3 info using node@v0.10.31
+4 verbose node symlink C:\TPs\devonfw\software\nodejs\\node.exe
+5 verbose cache add [ 'tsd', null ]
+6 verbose cache add name=undefined spec="tsd" args=["tsd",null]
+7 verbose parsed url { protocol: null,
+7 verbose parsed url   slashes: null,
+7 verbose parsed url   auth: null,
+7 verbose parsed url   host: null,
+7 verbose parsed url   port: null,
+7 verbose parsed url   hostname: null,
+7 verbose parsed url   hash: null,
+7 verbose parsed url   search: null,
+7 verbose parsed url   query: null,
+7 verbose parsed url   pathname: 'tsd',
+7 verbose parsed url   path: 'tsd',
+7 verbose parsed url   href: 'tsd' }
+8 verbose cache add [ '–g', null ]
+9 verbose cache add name=undefined spec="–g" args=["–g",null]
+10 verbose parsed url { protocol: null,
+10 verbose parsed url   slashes: null,
+10 verbose parsed url   auth: null,
+10 verbose parsed url   host: null,
+10 verbose parsed url   port: null,
+10 verbose parsed url   hostname: null,
+10 verbose parsed url   hash: null,
+10 verbose parsed url   search: null,
+10 verbose parsed url   query: null,
+10 verbose parsed url   pathname: '–g',
+10 verbose parsed url   path: '–g',
+10 verbose parsed url   href: '–g' }
+11 silly lockFile 6d3ed5a2-tsd tsd
+12 verbose lock tsd C:\Users\untiedt\AppData\Roaming\npm-cache\6d3ed5a2-tsd.lock
+13 silly lockFile 51e00793-g –g
+14 verbose lock –g C:\Users\untiedt\AppData\Roaming\npm-cache\51e00793-g.lock
+15 silly lockFile 6d3ed5a2-tsd tsd
+16 silly lockFile 6d3ed5a2-tsd tsd
+17 silly lockFile 51e00793-g –g
+18 silly lockFile 51e00793-g –g
+19 verbose addNamed [ 'tsd', '' ]
+20 verbose addNamed [ null, '*' ]
+21 silly lockFile ff70fa42-tsd tsd@
+22 verbose lock tsd@ C:\Users\untiedt\AppData\Roaming\npm-cache\ff70fa42-tsd.lock
+23 verbose addNamed [ '–g', '' ]
+24 verbose addNamed [ null, '*' ]
+25 silly lockFile 72e0e7f9-g –g@
+26 verbose lock –g@ C:\Users\untiedt\AppData\Roaming\npm-cache\72e0e7f9-g.lock
+27 silly addNameRange { name: 'tsd', range: '*', hasData: false }
+28 silly addNameRange { name: '–g', range: '*', hasData: false }
+29 verbose request where is /–g
+30 verbose request registry https://registry.npmjs.org/
+31 verbose request id 698e4f9ab5d5f4f7
+32 verbose url raw /–g
+33 verbose url resolving [ 'https://registry.npmjs.org/', './%E2%80%93g' ]
+34 verbose url resolved https://registry.npmjs.org/%E2%80%93g
+35 verbose request where is https://registry.npmjs.org/%E2%80%93g
+36 info trying registry request attempt 1 at 20:16:04
+37 http GET https://registry.npmjs.org/%E2%80%93g
+38 verbose request where is /tsd
+39 verbose request registry https://registry.npmjs.org/
+40 verbose url raw /tsd
+41 verbose url resolving [ 'https://registry.npmjs.org/', './tsd' ]
+42 verbose url resolved https://registry.npmjs.org/tsd
+43 verbose request where is https://registry.npmjs.org/tsd
+44 info trying registry request attempt 1 at 20:16:04
+45 verbose etag "AMQ4D5SIFT5TISS4MY5I2EI92"
+46 http GET https://registry.npmjs.org/tsd
+47 http 404 https://registry.npmjs.org/%E2%80%93g
+48 silly registry.get cb [ 404,
+48 silly registry.get   { 'content-type': 'application/json',
+48 silly registry.get     'cache-control': 'max-age=0',
+48 silly registry.get     'content-length': '66',
+48 silly registry.get     'accept-ranges': 'bytes',
+48 silly registry.get     date: 'Wed, 07 Oct 2015 18:16:05 GMT',
+48 silly registry.get     via: '1.1 varnish',
+48 silly registry.get     age: '0',
+48 silly registry.get     connection: 'keep-alive',
+48 silly registry.get     'x-served-by': 'cache-lhr6332-LHR',
+48 silly registry.get     'x-cache': 'MISS',
+48 silly registry.get     'x-cache-hits': '0',
+48 silly registry.get     'x-timer': 'S1444241764.924810,VS0,VE78' } ]
+49 silly lockFile 72e0e7f9-g –g@
+50 silly lockFile 72e0e7f9-g –g@
+51 error 404 Not Found
+51 error 404
+51 error 404 '–g' is not in the npm registry.
+51 error 404 You should bug the author to publish it
+51 error 404
+51 error 404 Note that you can also install from a
+51 error 404 tarball, folder, or http url, or git url.
+52 error System Windows_NT 6.1.7601
+53 error command "C:\\TPs\\devonfw\\software\\nodejs\\\\node.exe" "C:\\TPs\\devonfw\\software\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "tsd" "–g"
+54 error cwd C:\TPs\devonfw\workspaces\main\tp-off-oasp4j
+55 error node -v v0.10.31
+56 error npm -v 1.4.23
+57 error code E404
+58 verbose exit [ 1, true ]
